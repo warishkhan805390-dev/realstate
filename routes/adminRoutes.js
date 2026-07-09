@@ -25,4 +25,4 @@ router.put('/orders/:id/status', protect, admin, updateOrderStatus);
 router.get('/sales', protect, admin, getSalesReport);
 router.get('/sales/export', protect, admin, getSalesReport);
 
-module.exports = router;
+export default router;
