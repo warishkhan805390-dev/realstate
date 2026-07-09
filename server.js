@@ -1,6 +1,8 @@
 // import('express-async-errors');
-const dotenv = require('dotenv');
-const express = require('express');
+// const dotenv = require('dotenv');
+import dotenv from 'dotenv';
+// import express = require('express');
+import express from 'express';
 const cors = require('cors');
 const morgan = require('morgan');
 const connectDB = require('./config/db');
