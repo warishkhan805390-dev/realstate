@@ -22,4 +22,5 @@ router.get('/', protect, admin, getAllMessages);
 router.put('/:id/read', protect, admin, markAsRead);
 router.delete('/:id', protect, admin, deleteMessage);
 
-module.exports = router;
+// module.exports = router;
+export default router;

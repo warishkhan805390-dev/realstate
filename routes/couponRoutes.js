@@ -34,4 +34,5 @@ router.put('/:id', protect, admin, couponValidation, updateCoupon);
 router.delete('/:id', protect, admin, deleteCoupon);
 router.post('/validate', protect, validateCoupon);
 
-module.exports = router;
+// module.exports = router;
+export default router;

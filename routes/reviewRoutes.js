@@ -14,4 +14,5 @@ router.post('/', protect, createReviewValidation, createReview);
 router.put('/:id', protect, updateReviewValidation, updateReview);
 router.delete('/:id', protect, deleteReview);
 
-module.exports = router;
+// module.exports = router; export default router;
+export default router;

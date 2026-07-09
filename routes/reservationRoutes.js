@@ -26,4 +26,5 @@ router.get('/', protect, admin, getAllReservations);
 router.put('/:id', protect, admin, updateReservationStatus);
 router.delete('/:id', protect, admin, deleteReservation);
 
-module.exports = router;
+// module.exports = router;
+export default router;

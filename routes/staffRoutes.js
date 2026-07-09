@@ -14,4 +14,5 @@ router.get('/orders', protect, staff, getIncomingOrders);
 router.put('/orders/:id/status', protect, staff, updateOrderStatus);
 router.get('/kitchen', protect, staff, getKitchenOrders);
 
-module.exports = router;
+// module.exports = router;
+export default router;

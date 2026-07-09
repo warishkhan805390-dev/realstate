@@ -17,4 +17,6 @@ router.get('/:id', protect, getOrderById);
 router.put('/:id/cancel', protect, cancelOrder);
 router.post('/:id/pay', protect, processPayment);
 
-module.exports = router;
+// module.exports = router;
+export default router;
+

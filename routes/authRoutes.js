@@ -21,4 +21,5 @@ router.post('/wishlist', protect, addToWishlist);
 router.delete('/wishlist/:id', protect, removeFromWishlist);
 router.get('/wishlist', protect, getWishlist);
 
-module.exports = router;
+// module.exports = router;
+export default router;

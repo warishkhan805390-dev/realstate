@@ -21,4 +21,5 @@ router.post('/', protect, admin, categoryValidation, createCategory);
 router.put('/:id', protect, admin, categoryValidation, updateCategory);
 router.delete('/:id', protect, admin, deleteCategory);
 
-module.exports = router;
+// module.exports = router;
+export default router;

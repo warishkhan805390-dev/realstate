@@ -22,4 +22,5 @@ router.put('/:id', protect, admin, updateFoodValidation, updateFood);
 router.delete('/:id', protect, admin, deleteFood);
 router.post('/upload-image', protect, admin, upload.single('image'), uploadFoodImage);
 
-module.exports = router;
+// module.exports = router;
+export default router;
