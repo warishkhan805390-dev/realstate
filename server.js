@@ -3,7 +3,8 @@
 import dotenv from 'dotenv';
 // import express = require('express');
 import express from 'express';
-const cors = require('cors');
+import cors from 'cors';
+// const cors = require('cors');
 const morgan = require('morgan');
 const connectDB = require('./config/db');
 
